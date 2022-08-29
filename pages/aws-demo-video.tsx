@@ -44,4 +44,4 @@ const DemoVideo: NextPage = () => {
   );
 };
 
-export default Home;
+export default DemoVideo;

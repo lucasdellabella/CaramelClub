@@ -44,4 +44,4 @@ const TeamVideo: NextPage = () => {
   );
 };
 
-export default Home;
+export default TeamVideo;
