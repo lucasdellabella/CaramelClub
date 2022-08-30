@@ -64,7 +64,7 @@ const Home: NextPage = () => {
                 <li>Your real phone number is hidden</li>
               </ul>
               <button
-                onClick={() => (document.location.href = "tel:9739347213")}
+                onClick={() => (document.location.href = "sms:9739347213")}
               >
                 <b>Get started</b>
               </button>
