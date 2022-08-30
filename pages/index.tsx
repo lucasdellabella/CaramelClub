@@ -63,7 +63,9 @@ const Home: NextPage = () => {
                 <li>Everything is done over SMS</li>
                 <li>Your real phone number is hidden</li>
               </ul>
-              <button>
+              <button
+                onClick={() => (document.location.href = "tel:9739347213")}
+              >
                 <b>Get started</b>
               </button>
               <p>Or text LMAO to 973-934-7213</p>

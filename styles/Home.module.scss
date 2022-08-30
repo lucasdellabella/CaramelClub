@@ -50,6 +50,10 @@
     font-weight: 700;
     color: white;
     background-color: var(--orange);
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
