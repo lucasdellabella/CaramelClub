@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.scss";
+// import demoGif from "../public/aws-founders-demo.gif";
 
 type StepProps = {
   title: string;
@@ -28,13 +29,24 @@ const Home: NextPage = () => {
 
       <main className={styles.main}>
         <div className={styles["hero-section"]}>
-          <Image
-            src="/iphone-frame.png"
-            alt="iPhone Frame"
-            layout="fixed"
-            width="392.5px"
-            height="733px"
-          />
+          <div className={styles["demo-frame"]}>
+            <Image
+              src="/iphone-frame-2.png"
+              alt="iPhone Frame"
+              layout="fixed"
+              width="330px"
+              height="645px"
+            />
+          </div>
+          <div className={styles["demo-gif"]}>
+            <Image
+              src="/aws-founders-demo.gif"
+              alt="Demo GIF"
+              layout="fixed"
+              width="330px"
+              height="645px"
+            />
+          </div>
           <div className={styles["hero-content"]}>
             <Image
               src="/caramelclub-logo.svg"

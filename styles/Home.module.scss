@@ -15,6 +15,7 @@
 .hero-section {
   display: flex;
   flex-direction: row;
+  position: relative;
 }
 
 .hero-content {
@@ -59,6 +60,16 @@
 .title ~ .subtext {
   font-weight: 300;
   font-size: 16px;
+}
+
+.demo-frame {
+  z-index: 2;
+}
+
+.demo-gif {
+  position: absolute;
+  z-index: 1;
+  transform: scaleX(0.76) scaleY(0.7);
 }
 
 .hero-content-text button ~ p,
@@ -122,25 +133,5 @@
 
   li {
     margin-bottom: 18px;
-  }
-}
-
-@media (max-width: 600px) {
-  .grid {
-    width: 100%;
-    flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }

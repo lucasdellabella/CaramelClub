@@ -14,6 +14,15 @@ const TeamVideo: NextPage = () => {
 
       <main className={styles.main}>
         <h1>Team Video</h1>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/AeVe3T-C33Y"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </main>
 
       <footer className={styles.footer}>

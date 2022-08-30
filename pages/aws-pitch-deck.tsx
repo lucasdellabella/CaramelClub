@@ -13,26 +13,15 @@ const DemoVideo: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <h1>Demo Video</h1>
+        <h1>Pitch Deck</h1>
         <div className={styles["hero-section"]}>
-          <div className={styles["demo-frame"]}>
-            <Image
-              src="/iphone-frame-2.png"
-              alt="iPhone Frame"
-              layout="fixed"
-              width="330px"
-              height="645px"
-            />
-          </div>
-          <div className={styles["demo-gif"]}>
-            <Image
-              src="/aws-founders-demo.gif"
-              alt="Demo GIF"
-              layout="fixed"
-              width="330px"
-              height="645px"
-            />
-          </div>
+          <iframe
+            src="https://pitch.com/embed/22ab6439-18f4-4ec9-b3d3-8b42498e6114"
+            allow="fullscreen"
+            allowfullscreen=""
+            width="560"
+            height="368"
+          ></iframe>
         </div>
       </main>
 

@@ -2,6 +2,7 @@
   --orange: #ff9452;
 }
 
+/** reset globals **/
 html,
 body,
 button {
@@ -41,12 +42,17 @@ ul {
   padding: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+/** Application Globals **/
+.container {
+  background-color: #ebebeb;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
