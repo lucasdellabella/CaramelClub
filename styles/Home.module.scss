@@ -16,6 +16,7 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  margin-bottom: 48px;
 }
 
 .hero-content {
@@ -64,12 +65,20 @@
 
 .demo-frame {
   z-index: 2;
+  margin: -24px -16px;
+  display: flex;
+  align-items: center;
 }
 
 .demo-gif {
   position: absolute;
   z-index: 1;
   transform: scaleX(0.76) scaleY(0.7);
+
+  top: 2px;
+  left: -16px;
+  // display: flex;
+  // align-items: center;
 }
 
 .hero-content-text button ~ p,

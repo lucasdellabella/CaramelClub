@@ -41,18 +41,3 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-/** Application Globals **/
-.container {
-  background-color: #ebebeb;
-}
-
-.main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
