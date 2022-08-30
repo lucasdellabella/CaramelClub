@@ -18,7 +18,7 @@ const DemoVideo: NextPage = () => {
           <iframe
             src="https://pitch.com/embed/22ab6439-18f4-4ec9-b3d3-8b42498e6114"
             allow="fullscreen"
-            allowfullscreen=""
+            allowFullScreen
             width="560"
             height="368"
           ></iframe>
