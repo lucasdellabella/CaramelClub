@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/video.module.scss";
 
-const DemoVideo: NextPage = () => {
+const TryForm: NextPage = () => {
   useEffect(() => {
     Router.push("https://tally.so/r/mD4o6N");
   }, []);
@@ -52,4 +52,4 @@ const DemoVideo: NextPage = () => {
   );
 };
 
-export default DemoVideo;
+export default TryForm;

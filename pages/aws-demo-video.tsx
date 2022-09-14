@@ -14,26 +14,9 @@ const DemoVideo: NextPage = () => {
 
       <main className={styles.main}>
         <h1>Demo Video</h1>
-        <div className={styles["hero-section"]}>
-          <div className={styles["demo-frame"]}>
-            <Image
-              src="/iphone-frame-2.png"
-              alt="iPhone Frame"
-              layout="fixed"
-              width="330px"
-              height="645px"
-            />
-          </div>
-          <div className={styles["demo-gif"]}>
-            <Image
-              src="/aws-founders-demo.gif"
-              alt="Demo GIF"
-              layout="fixed"
-              width="330px"
-              height="645px"
-            />
-          </div>
-        </div>
+        <video controls={true} style={{ width: "330px", height: "645px" }}>
+          <source src="/iphoneX-demo-2.mp4" />
+        </video>
       </main>
 
       <footer className={styles.footer}>
