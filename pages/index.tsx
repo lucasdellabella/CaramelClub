@@ -1,6 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
+import Router from "next/router";
+import { useEffect } from "react";
 import styles from "../styles/Home.module.scss";
 // import demoGif from "../public/aws-founders-demo.gif";
 
@@ -19,6 +21,10 @@ const Step = ({ title, subtext, number }: StepProps) => (
 );
 
 const Home: NextPage = () => {
+  useEffect(() => {
+    Router.push("https://tally.so/r/mD4o6N");
+  }, []);
+
   return (
     <div className={styles.container}>
       <Head>
