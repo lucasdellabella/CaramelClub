@@ -33,8 +33,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <div className={styles["hero-section"]}>
+      {/* <main className={styles.main}> */}
+      {/* <div className={styles["hero-section"]}>
           <div className={styles["demo-frame"]}>
             <Image
               src="/iphone-frame-2.png"
@@ -92,8 +92,8 @@ const Home: NextPage = () => {
           />
         </div>
         <h1 className={styles.title}></h1>
-      </main>
-
+      </main> */}
+      {/* 
       <footer className={styles.footer}>
         <ul>
           <li>
@@ -117,7 +117,7 @@ const Home: NextPage = () => {
             </a>
           </li>
         </ul>
-      </footer>
+      </footer> */}
     </div>
   );
 };
